@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anek+Latin:wght@300&family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anek+Latin:wght@300&family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 12rem;
+}
+
+.logo {
+  position: absolute;
+  top: 0.5rem;
+  left: 20rem;
+  font-family: "Alata", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+}
+
+ul {
+  position: absolute;
+  top: 0.5rem;
+  font-family: "Alata", sans-serif;
+  right: 20rem;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.immersive {
+  position: absolute;
+  top: 13rem;
+  left: 18rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+  border: 2px solid white;
+  color: white;
+}
+
+.interactive {
+  position: relative;
+  top: 50rem;
+  left: 12rem;
+}
+
+.vr {
+  position: absolute;
+  top: 65rem;
+  left: 48rem;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  align-items: center;
+}
+
+.leader {
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.founded {
+  margin-left: 100px;
+  color: gray;
+  font-size: 18px;
+}
+
+.creations {
+  position: absolute;
+  top: 90rem;
+  left: 12rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.create {
+  position: absolute;
+  top: 90rem;
+  left: 20rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+}
+
+.btn {
+  position: absolute;
+  top: 93rem;
+  left: 98rem;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.deep {
+  position: absolute;
+  top: 100rem;
+  left: 21rem;
+}
+
+.earth {
+  position: absolute;
+  top: 123rem;
+  left: 23rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.night {
+  position: absolute;
+  top: 100rem;
+  left: 39rem;
+}
+
+.arcade {
+  position: absolute;
+  top: 123rem;
+  left: 41rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.soccer {
+  position: absolute;
+  top: 100rem;
+  left: 57rem;
+}
+
+.team {
+  position: absolute;
+  top: 123rem;
+  left: 63rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.grid {
+  position: absolute;
+  top: 100rem;
+  left: 75rem;
+}
+
+.lane {
+  position: absolute;
+  top: 123rem;
+  left: 77rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.from {
+  position: absolute;
+  top: 130rem;
+  left: 21rem;
+}
+
+.above {
+  position: absolute;
+  top: 153rem;
+  left: 23rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.pocket {
+  position: absolute;
+  top: 130rem;
+  left: 39rem;
+}
+
+.borealis {
+  position: absolute;
+  top: 153rem;
+  left: 41rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.curiosity {
+  position: absolute;
+  top: 130rem;
+  left: 57rem;
+}
+
+.image {
+  position: absolute;
+  top: 153rem;
+  left: 60rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.make {
+  position: absolute;
+  top: 130rem;
+  left: 75rem;
+}
+
+.fisheye {
+  position: absolute;
+  top: 153rem;
+  left: 77rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.footer {
+  position: absolute;
+  top: 165rem;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 0;
+  background-color: black;
+}
+
+.list {
+  position: absolute;
+  top: 3rem;
+  font-family: "Alata", sans-serif;
+  left: 10rem;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 12rem;
+  font-family: "Alata", sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+  color: white;
+}
+
+.social {
+  position: absolute;
+  top: 166.5rem;
+  right: 10rem;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+.copy {
+  position: absolute;
+  top: 168.5rem;
+  right: 10rem;
+  font-family: "Alata", sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+  color: gray;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and(max-width: 375px) {
+  .container {
+    position: relative;
+    top: 0;
+    left: 0rem;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 0rem;
+    font-family: "Alata", sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    color: white;
+  }
+
+  ul {
+    position: absolute;
+    top: 0.5rem;
+    font-family: "Alata", sans-serif;
+    right: 10rem;
+  }
+
+  ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .immersive {
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .interactive {
+    position: relative;
+    top: 50rem;
+    left: 12rem;
+  }
+
+  .vr {
+    position: absolute;
+    top: 65rem;
+    left: 48rem;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+  }
+
+  .leader {
+    font-size: 50px;
+    margin-left: 100px;
+  }
+
+  .founded {
+    margin-left: 100px;
+    color: gray;
+    font-size: 18px;
+  }
+
+  .creations {
+    position: absolute;
+    top: 90rem;
+    left: 12rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .create {
+    position: absolute;
+    top: 90rem;
+    left: 20rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 93rem;
+    left: 98rem;
+    padding: 5px 10px;
+    background-color: white;
+  }
+
+  .deep {
+    position: absolute;
+    top: 100rem;
+    left: 21rem;
+  }
+
+  .earth {
+    position: absolute;
+    top: 123rem;
+    left: 23rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+
+  .night {
+    position: absolute;
+    top: 100rem;
+    left: 39rem;
+  }
+
+  .arcade {
+    position: absolute;
+    top: 123rem;
+    left: 41rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .soccer {
+    position: absolute;
+    top: 100rem;
+    left: 57rem;
+  }
+
+  .team {
+    position: absolute;
+    top: 123rem;
+    left: 63rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .grid {
+    position: absolute;
+    top: 100rem;
+    left: 75rem;
+  }
+
+  .lane {
+    position: absolute;
+    top: 123rem;
+    left: 77rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .from {
+    position: absolute;
+    top: 130rem;
+    left: 21rem;
+  }
+
+  .above {
+    position: absolute;
+    top: 153rem;
+    left: 23rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .pocket {
+    position: absolute;
+    top: 130rem;
+    left: 39rem;
+  }
+
+  .borealis {
+    position: absolute;
+    top: 153rem;
+    left: 41rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .curiosity {
+    position: absolute;
+    top: 130rem;
+    left: 57rem;
+  }
+
+  .image {
+    position: absolute;
+    top: 153rem;
+    left: 60rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .make {
+    position: absolute;
+    top: 130rem;
+    left: 75rem;
+  }
+
+  .fisheye {
+    position: absolute;
+    top: 153rem;
+    left: 77rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .footer {
+    position: absolute;
+    top: 165rem;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+    background-color: black;
+  }
+
+  .list {
+    position: absolute;
+    top: 3rem;
+    font-family: "Alata", sans-serif;
+    left: 10rem;
+  }
+
+  ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 12rem;
+    font-family: "Alata", sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    color: white;
+  }
+
+  .social {
+    position: absolute;
+    top: 166.5rem;
+    right: 10rem;
+    margin: 0 10px;
+    padding: 20px;
+  }
+
+  .copy {
+    position: absolute;
+    top: 168.5rem;
+    right: 10rem;
+    font-family: "Alata", sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    color: gray;
+  }
+}
