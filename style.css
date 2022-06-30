@@ -23,14 +23,14 @@ body {
   color: white;
 }
 
-ul {
+.nav-list {
   position: absolute;
   top: 0.5rem;
   font-family: "Alata", sans-serif;
   right: 20rem;
 }
 
-ul li {
+.nav-list li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
@@ -271,41 +271,47 @@ ul li {
   color: gray;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media screen and(max-width: 375px) {
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
   .container {
-    position: relative;
-    top: 0;
-    left: 0rem;
+    background-image: url(/loopstudios-landing-page-main/images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    left: auto;
+  }
+
+  .container img {
+    opacity: 0;
   }
 
   .logo {
-    position: absolute;
-    top: 0.5rem;
-    left: 0rem;
+    left: 12rem;
     font-family: "Alata", sans-serif;
     font-weight: bolder;
-    padding: 20px;
+    padding: 30px;
     color: white;
   }
 
-  ul {
+  .nav-list {
     position: absolute;
     top: 0.5rem;
     font-family: "Alata", sans-serif;
-    right: 10rem;
+    right: 0rem;
   }
 
-  ul li {
+  .nav-list li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
     color: white;
     font-size: 15px;
+    opacity: 0;
   }
 
   .immersive {
-    position: absolute;
-    top: 12rem;
+    top: 35rem;
     left: 12rem;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
@@ -315,13 +321,17 @@ ul li {
   }
 
   .interactive {
-    position: relative;
-    top: 50rem;
-    left: 12rem;
+    background-image: url(/loopstudios-landing-page-main/images/mobile/image-interactive.jpg);
+    background-repeat: no-repeat;
+    left: auto;
+    top: 90rem;
+  }
+
+  .interactive img {
+    opacity: 0;
   }
 
   .vr {
-    position: absolute;
     top: 65rem;
     left: 48rem;
     font-family: "Josefin Sans", sans-serif;
@@ -329,6 +339,7 @@ ul li {
     width: 600px;
     height: 300px;
     align-items: center;
+    opacity: 0;
   }
 
   .leader {
@@ -340,6 +351,7 @@ ul li {
     margin-left: 100px;
     color: gray;
     font-size: 18px;
+    opacity: 0;
   }
 
   .creations {
@@ -347,6 +359,7 @@ ul li {
     top: 90rem;
     left: 12rem;
     font-family: "Josefin Sans", sans-serif;
+    opacity: 0;
   }
 
   .create {
@@ -355,6 +368,7 @@ ul li {
     left: 20rem;
     font-family: "Josefin Sans", sans-serif;
     font-size: 50px;
+    opacity: 0;
   }
 
   .btn {
@@ -363,12 +377,14 @@ ul li {
     left: 98rem;
     padding: 5px 10px;
     background-color: white;
+    opacity: 0;
   }
 
   .deep {
     position: absolute;
     top: 100rem;
     left: 21rem;
+    opacity: 0;
   }
 
   .earth {
@@ -378,12 +394,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     font-size: 20px;
+    opacity: 0;
   }
 
   .night {
     position: absolute;
     top: 100rem;
     left: 39rem;
+    opacity: 0;
   }
 
   .arcade {
@@ -393,12 +411,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .soccer {
     position: absolute;
     top: 100rem;
     left: 57rem;
+    opacity: 0;
   }
 
   .team {
@@ -408,12 +428,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .grid {
     position: absolute;
     top: 100rem;
     left: 75rem;
+    opacity: 0;
   }
 
   .lane {
@@ -423,12 +445,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .from {
     position: absolute;
     top: 130rem;
     left: 21rem;
+    opacity: 0;
   }
 
   .above {
@@ -438,12 +462,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .pocket {
     position: absolute;
     top: 130rem;
     left: 39rem;
+    opacity: 0;
   }
 
   .borealis {
@@ -453,12 +479,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .curiosity {
     position: absolute;
     top: 130rem;
     left: 57rem;
+    opacity: 0;
   }
 
   .image {
@@ -468,12 +496,14 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .make {
     position: absolute;
     top: 130rem;
     left: 75rem;
+    opacity: 0;
   }
 
   .fisheye {
@@ -483,6 +513,7 @@ ul li {
     font-family: "Josefin Sans", sans-serif;
     color: white;
     padding: 20px;
+    opacity: 0;
   }
 
   .footer {
@@ -492,6 +523,7 @@ ul li {
     height: 150px;
     margin-bottom: 0;
     background-color: black;
+    opacity: 0;
   }
 
   .list {
@@ -499,6 +531,7 @@ ul li {
     top: 3rem;
     font-family: "Alata", sans-serif;
     left: 10rem;
+    opacity: 0;
   }
 
   ul li {
@@ -507,6 +540,7 @@ ul li {
     margin: 0 5px;
     color: white;
     font-size: 15px;
+    opacity: 0;
   }
 
   .footer-logo {
@@ -516,6 +550,7 @@ ul li {
     font-weight: bolder;
     padding: 20px;
     color: white;
+    opacity: 0;
   }
 
   .social {
@@ -524,6 +559,7 @@ ul li {
     right: 10rem;
     margin: 0 10px;
     padding: 20px;
+    opacity: 0;
   }
 
   .copy {
@@ -534,5 +570,6 @@ ul li {
     font-weight: bolder;
     padding: 20px;
     color: gray;
+    opacity: 0;
   }
 }
